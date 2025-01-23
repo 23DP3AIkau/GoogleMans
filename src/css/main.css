@@ -43,7 +43,8 @@ a {
     width: 45%;
     height: 10px;
     padding: 20px;
-    border: 2px solid lightgray;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    
 }
 
 input {
@@ -94,7 +95,19 @@ input {
     padding-left: 10px;
 }
 
+
+@font-face {
+    font-family: "ProductSansRegular";
+    src: url(Product_Sans_Regular.ttf);
+}
+
+@font-face {
+    font-family: "ProductSansBold";
+    src: url(Product_Sans_Bold.ttf);
+}
+
 #Google {
+    font-family: "ProductSansRegular";
     user-select: none;
     padding-top: 20px;
     padding-bottom: 35px;
